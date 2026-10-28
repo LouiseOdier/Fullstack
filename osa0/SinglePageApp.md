@@ -23,8 +23,8 @@
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
     server-->>browser: [{"content": "uusi kissa","date": "2026-10-28T06:55:23.564Z"},
-    {   "content": "HA! HA!", "date": "2026-10-28T07:02:12.801Z"},
-    {   "content": "HA! HA!", "date": "2026-10-28T07:02:23.728Z"}]
+    {"content": "HA! HA!","date": "2026-10-28T07:02:12.801Z"},
+    {"content": "HA! HA!","date": "2026-10-28T07:02:23.728Z"}]
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
